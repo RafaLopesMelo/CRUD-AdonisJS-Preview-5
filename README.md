@@ -11,6 +11,8 @@ AdonisJS é um framework NodeJS robusto que vem com diversas funcionalidades pro
 
 Este projeto teve o objetivo de ser um teste da nova versão do Adonis e sua integração com o TypeScript, nele construí um CRUD simples de usuários. Não houve muitas mudanças em relação ao funcionamento geral do framework, a criação de rotas e controllers continua muito simplificada e praticamente não mudou desde a versão passada, por exemplo.
 
+Neste CRUD as senhas são armazenadas como hash encriptados no banco de dados com base na própria senha do usuário utilizando um [hook](https://preview.adonisjs.com/guides/models/hooks) do AdonisJS, incluí também um pequeno sistema de login com usuário e senha que compara a senha encriptada com a senha enviada pelo usuário e verifica se é válida.
+
 ## 🎸 Tecnologias usadas: 
 
 #### - Linguagem: TypeScript
