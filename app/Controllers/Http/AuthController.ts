@@ -3,7 +3,7 @@ import Hash from '@ioc:Adonis/Core/Hash';
 import User from '../../Models/User';
 
 export default class AuthController {
-    public async login({request, response, auth}: HttpContextContract) {
+    public async login({request, response}: HttpContextContract) {
         const { username, password } = request.all();
         const user = await User.findBy('username', username);
 
