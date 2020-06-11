@@ -13,6 +13,16 @@ Este projeto teve o objetivo de ser um teste da nova versão do Adonis e sua int
 
 Neste CRUD as senhas são armazenadas como hash encriptados no banco de dados com base na própria senha do usuário utilizando um [hook](https://preview.adonisjs.com/guides/models/hooks) do AdonisJS, incluí também um pequeno sistema de login com usuário e senha que compara a senha encriptada com a senha enviada pelo usuário e verifica se é válida.
 
+## 💯 Principais novidades:
+
+- Integração completa com TypeScript
+- Fim da CLI do Adonis (um projeto Adonis agora é iniciado com npx ou yarn create)
+- Melhoras na performance (chegando a ultrapassar o fastify em velocidade)
+- ESM imports como método de import padrão
+- Adição de Health Checks
+
+E muitas outras novidades, caso queira saber todas, visite os links no tópico "Fique atualizado"
+
 ## 🎸 Tecnologias usadas: 
 
 #### - Linguagem: TypeScript
